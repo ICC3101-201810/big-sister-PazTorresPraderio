@@ -9,11 +9,12 @@ namespace LabPOO
 {
     class Program
     {
+
         public static List<Product> cart;
         public static List<Product> market;
-
         static void Main(string[] args)
         {
+            
             cart = new List<Product>();
             market = new List<Product>();
             SupplyStore();
